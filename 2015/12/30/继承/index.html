@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>css的继承 | Hexo</title> 
+        <!-- 主css -->
+        <link rel="stylesheet" href="/sass/main.css">
+        <!-- seo -->
+            <meta name="description" content="#css中无继承的属性
+
+规定元素应该生成的框的类型 display
+
+文本属性：
+
+vertical-align 垂直文本对齐
+text-decoration 文本装饰类型
+text-shadow 本文阴影效果
+white-sapce 空白符的处理
+unicode-bidi设置文本的方向
+
+
+
+
+盒模型的属性
+
+
+width，height，
+
+margin，margin-top，margin-r">
+<meta property="og:type" content="article">
+<meta property="og:title" content="css的继承">
+<meta property="og:url" content="http://yoursite.com/2015/12/30/继承/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#css中无继承的属性
+
+规定元素应该生成的框的类型 display
+
+文本属性：
+
+vertical-align 垂直文本对齐
+text-decoration 文本装饰类型
+text-shadow 本文阴影效果
+white-sapce 空白符的处理
+unicode-bidi设置文本的方向
+
+
+
+
+盒模型的属性
+
+
+width，height，
+
+margin，margin-top，margin-r">
+<meta property="og:updated_time" content="2017-04-06T10:00:28.654Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="css的继承">
+<meta name="twitter:description" content="#css中无继承的属性
+
+规定元素应该生成的框的类型 display
+
+文本属性：
+
+vertical-align 垂直文本对齐
+text-decoration 文本装饰类型
+text-shadow 本文阴影效果
+white-sapce 空白符的处理
+unicode-bidi设置文本的方向
+
+
+
+
+盒模型的属性
+
+
+width，height，
+
+margin，margin-top，margin-r">
+            <!-- facicon -->
+        
+        <link rel="icon" href="http://7xp1k3.com1.z0.glb.clouddn.com/octocat-de-los-muertos.jpg">
+                
+        <!-- 统计 -->
+        
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?c21994907883f37ffd80e13627dd4faa";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        
+        
+       <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+	<body>
+		<div class="main">
+			<div id="mobile-bar">
+    <a class="menu-button"></a>
+    <a class="logo" href="/">Ting</a>
+</div>
+<header class="nav-header">
+    <a href="/" class="logo-link">Ting</a>
+    
+            
+    <ul class="nav nav-list">
+        <li class="nav-list-item"><a href="/">Home</a></li>
+        
+            
+        
+            
+        <li class="nav-list-item"><a href="/about/about">About</a></li>
+            
+        
+            
+        <li class="nav-list-item"><a href="/tags/tags">Tags</a></li>
+            
+        
+            
+        <li class="nav-list-item"><a href="/archives">Archives</a></li>
+            
+        
+    </ul>
+</header>
+<div class="sidebar">
+    
+            
+    <ul class="main-menu">
+        <li class="main-menu-item"><a href="/">Home</a></li>
+        
+            
+        
+            
+        <li class="main-menu-item"><a href="/about/about">About</a></li>
+            
+        
+            
+        <li class="main-menu-item"><a href="/tags/tags">Tags</a></li>
+            
+        
+            
+        <li class="main-menu-item"><a href="/archives">Archives</a></li>
+            
+        
+    </ul>
+</div>
+
+<h1 class="title">The Ting Blog</h1>
+
+			
+<article class="article-main" itemscope itemprop="blogPost">
+        <div class="articleCon">
+            <header class="article-header">
+                <h1 itemprop="name">
+                    <a href="/2015/12/30/继承/" class="article-title">css的继承</a>
+                </h1>
+            </header>
+            
+<div class="bookmark" id="bookmark">
+    
+</div>
+
+            
+            <div class="article-meta">
+                <div class="article-dateTime">
+    <a href="/2015/12/30/继承/" class="article-date">
+        <time datetime="Dec 30th 2015" itemprop="datePublished">
+            Dec 30th 2015
+        </time>
+    </a>
+</div>
+
+            </div>
+            <div class="article-inner">
+                <div class="article-entry" itemprop="articleBody">
+                    <p>#css中无继承的属性</p>
+<ol>
+<li><p>规定元素应该生成的框的类型 display</p>
+</li>
+<li><p>文本属性：</p>
+<blockquote>
+<p>vertical-align 垂直文本对齐</p>
+<p>text-decoration 文本装饰类型</p>
+<p>text-shadow 本文阴影效果</p>
+<p>white-sapce 空白符的处理</p>
+<p>unicode-bidi设置文本的方向</p>
+</blockquote>
+</li>
+</ol>
+<ol>
+<li><p>盒模型的属性</p>
+<blockquote>
+<ol>
+<li><p>width，height，</p>
+</li>
+<li><p>margin，margin-top，margin-right，margin-bottom，margin-left，</p>
+</li>
+<li><p>border，boder-style，border-right-style、border-bottom-style、border-left-style、border-widthborder-width、border-top-width、border-right-right、border-bottom-width、border-left-width、border-color、border-top-color、border-right-color、border-bottom-color、border-left-color、border-top、border-right、border-bottom、border-left、</p>
+</li>
+<li><p>padding、padding-top、padding-right、padding-bottom、padding-left</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p>背景属性:</p>
+</li>
+</ol>
+<ul>
+<li>background,background-color,background-image,background-repeat,background-position,background-attachment</li>
+</ul>
+<p>5.定位属性:</p>
+<ul>
+<li>float,clear,position,top,right,bottom,left,</li>
+<li>min-width,min-height,max-width,max-height,</li>
+<li>overflow,clip,z-index</li>
+</ul>
+<p>#有继承属性</p>
+<ol>
+<li>字体系列属性<blockquote>
+<p>font 组合字体</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>设置字体的尺寸 font-size</p>
+<p>设置字体的类别 font-family</p>
+<p>设置字体的样式 font-style</p>
+<p>设置字体的粗细 font-weight</p>
+</blockquote>
+<p>2.文本系列属性</p>
+<blockquote>
+<p>文本水平对齐 text-align</p>
+<p>文本缩进 text-indent</p>
+<p> 行高 line-height</p>
+<p>文本颜色 color </p>
+<p>文本书写方向 direction </p>
+<p>字间距 word-spacing</p>
+<p>字符间距 letter-spacing</p>
+</blockquote>
+<p>3.元素可见性</p>
+<ul>
+<li>visibility</li>
+</ul>
+<p>4.表格布局属性</p>
+<ul>
+<li>caption-side、border-collapse、border-spacing、empty-cells、table-layout</li>
+</ul>
+<p>5.列表布局属性</p>
+<ul>
+<li>list-style-type、list-style-image、list-style-position、list-style</li>
+</ul>
+<p>6.光标属性</p>
+<ul>
+<li>cursor</li>
+</ul>
+<p>#所有元素都可继承属性</p>
+<ul>
+<li>cursor和visibility</li>
+</ul>
+<p>#块级元素可继承属性</p>
+<ul>
+<li>text-indext</li>
+<li>text-align</li>
+</ul>
+<p>#内联元素可继承的属性</p>
+<ul>
+<li>字体系列属性</li>
+<li>除text-indent,text-align之外的文本系列属性</li>
+</ul>
+
+                </div>
+                
+<nav id="article-nav">
+  
+  
+    <a href="/2015/12/26/Summary-img/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"> < img图片</div>
+    </a>
+  
+</nav>
+
+
+            </div>
+        </div>
+        
+            <div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document,
+            s = d.createElement('script');
+
+        s.src = '//Ting.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//Ting.disqus.com/count.js" async></script>
+
+        
+        
+</article>
+
+
+
+		</div>
+		<div id="heart"></div>
+
+    <footer class="blog-footer" id="blog-footer">
+        <div id="footer-info" class="inner">
+            Made with ♥ by <a href="https://github.com/yzzting/hexo-theme-MyFairLady" target="_blank">MyFairLady</a>
+        </div>
+    </footer>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/toTop.js"></script>
+    <script src="/js/bookmark.js"></script>
+	</body>
+	</html>
